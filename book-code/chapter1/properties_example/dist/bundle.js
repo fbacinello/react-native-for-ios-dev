@@ -1,0 +1,1 @@
+console.error("SyntaxError: /Users/akshatpaul/myapps/react-practice/src/app.jsx: Unexpected token (28:12) while parsing file: /Users/akshatpaul/myapps/react-practice/src/app.jsx");

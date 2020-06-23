@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html lang='en'>
+ <head>
+  <meta charset="UTF-8">
+  <title>JSX me like !</title>
+     <script src="http://fb.me/react-0.13.3.js"></script>
+     <script src="http://fb.me/JSXTransformer-0.13.3.js"></script>
+ </head>
+ <body>
+  <!-- with JSX -->
+   <script type="text/jsx">
+   var App = React.createClass({
+    render:function(){
+     return <h1>Hi from JSX</h1>
+    }
+   });
+
+   React.render(<App />, document.body);
+   </script>
+ </body>
+</html>
